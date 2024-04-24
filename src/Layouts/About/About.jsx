@@ -8,7 +8,7 @@ const About = () => {
             <div className='flex flex-col text-gray-600 gap-[48px] py-[96px] px-20'>
                 <div className='flex justify-center'>
                     <Button
-                        bg="gray-200"
+                        bg="bg-gray-200"
                         content="About me"
                     />
                 </div>

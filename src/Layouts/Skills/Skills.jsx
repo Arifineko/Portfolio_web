@@ -9,7 +9,7 @@ const Skills = () => {
                 <div>
                     <Button
                         content="Skills"
-                        bg="gray-200"
+                        bg="bg-gray-200"
                     />
                 </div>
                 <p>The skills, tools and technologies I am really good at:</p>

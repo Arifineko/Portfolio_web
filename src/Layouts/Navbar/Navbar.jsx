@@ -20,7 +20,7 @@ const Navbar = () => {
                 </ul>
                 <div className='flex gap-5'>
                     <img src={ligth_mode} alt="" className='cursor-pointer' />
-                    <Button content={'Dwonload CV'} bg="gray-900" text="white" />
+                    <Button content={'Dwonload CV'} bg="bg-gray-900" text="text-white" />
                 </div>
             </div>
         </nav>
