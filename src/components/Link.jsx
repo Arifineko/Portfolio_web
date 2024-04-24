@@ -1,12 +1,30 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from "react-router-dom";
 
-const Link = (props) => {
+const navigation = [
+    { name: 'About', href: '/About' },
+    { name: 'Project', href: '/Project' },
+    { name: 'Contact', href: '/Contact' },
+]
 
+const Link = () => {
     return (
-        <li>
-            <a href="#">{props.name}</a>
+        <li className='flex gap-5'>
+            {navigation.map(item => (
+                <NavLink
+                    key={item.name}
+                    to={item.href}
+                    className={({ isActive }) => {
+                        return (
+                            (isActive ? 'text-gray-800 font-bold' : 'text-gray-500 font-normal')
+                        )
+                    }}
+                >
+                    {item.name}
+                </NavLink>
+            ))}
         </li>
     )
 }
 
-export default Link
+export default Link;

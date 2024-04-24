@@ -3,6 +3,8 @@ import Button from '../../components/Button'
 import ligth_mode from '../../assets/icons/ligth-mode.svg'
 import Link from '../../components/Link'
 
+
+
 const Navbar = () => {
     return (
         <nav className='flex justify-between py-4 text-gray-500'>
@@ -11,12 +13,7 @@ const Navbar = () => {
             </div>
             <div className='flex gap-5 items-center'>
                 <ul className='flex gap-5'>
-                    <li className='text-gray-800 font-bold'>About</li>
-                    <li>Project</li>
-                    <li>Contact</li>
-                    <Link
-                        name="tes"
-                    />
+                    <Link />
                 </ul>
                 <div className='flex gap-5'>
                     <img src={ligth_mode} alt="" className='cursor-pointer' />
