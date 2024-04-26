@@ -3,8 +3,6 @@ import Button from '../../components/Button'
 import ligth_mode from '../../assets/icons/ligth-mode.svg'
 import Link from '../../components/Link'
 
-
-
 const Navbar = () => {
     return (
         <nav className='flex justify-between py-4 text-gray-500'>

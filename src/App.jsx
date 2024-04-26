@@ -1,4 +1,5 @@
 import About from './Layouts/About/About'
+import Contact from './Layouts/Contact/Contact'
 import Hero from './Layouts/Hero/Hero'
 import Navbar from './Layouts/Navbar/Navbar'
 import Project from './Layouts/Project/Project'
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Skills />
         <Project />
+        <Contact />
       </BrowserRouter>
     </>
 
