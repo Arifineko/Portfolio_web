@@ -17,7 +17,7 @@ const About = () => {
                         <img className='w-[450px]' src={profile} alt="" />
                     </div>
                     <div className='w-[580px]'>
-                        <h1 className='text-[30px] text-gray-900 font-semibold mb-8'>Curious about me? Here you have it:</h1>
+                        <h1 className='text-[30px] text-gray-900 font-semibold mb-8'>Intrigued about my story? Here's your chance to dive in:</h1>
                         <div className='flex flex-col gap-8'>
                             <p>Hello! I am Arifin, an English education student who has an interest in web development, specifically as a front-end developer. Currently, I have a basic understanding in HTML, CSS, and JavaScript, and I am excited to continue learning and growing in this field.
                             </p>

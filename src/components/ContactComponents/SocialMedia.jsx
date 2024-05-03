@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom"
+import Tooltip from '@mui/material/Tooltip';
+
 const SocialMedia = (props) => {
+    const { src, url, title } = props
     return (
-        <Link>
-            <img src={props.url} alt="" />
-        </Link>
+        <Tooltip title={title}>
+            <Link to={url} target="_blank">
+                <img src={src} alt="" />
+            </Link>
+        </Tooltip>
     )
 }
 

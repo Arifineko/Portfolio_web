@@ -1,14 +1,15 @@
 import React from 'react'
-import github_icon from "../../assets/icons/github-icon.svg"
+import github from "../../assets/icons/github-icon.svg"
 import location_icon from "../../assets/icons/location-icon.svg"
-import inbox_icon from "../../assets/icons/inbox-icon.svg"
-import figma_icon from "../../assets/icons/figma-icon.svg"
+import linkedin from "../../assets/icons/linkedin-icon.svg"
+import instagram from "../../assets/icons/ig-icon.svg"
 import profile from "../../assets/images/profile.png"
+import SocialMedia from '../../components/ContactComponents/SocialMedia'
 
 
 const Hero = () => {
     return (
-        <div className='py-[96px] flex justify-between items-center gap-[48px] text-gray-600'>
+        <div className='py-[96px] flex justify-center items-center gap-[48px] text-gray-600'>
             <div className='w-[768px] flex flex-col gap-[48px]'>
                 <div>
                     <h1 className='font-bold text-[60px]'>Hi, I'm Arifin👋</h1>
@@ -19,15 +20,12 @@ const Hero = () => {
                         <img src={location_icon} alt="" />
                         <p>Purwokerto, Indonesia</p>
                     </div>
-                    <div>
-                        <img src="" alt="" />
-                        <p>Available for new projects</p>
-                    </div>
+
                 </div>
-                <div className='flex items-center gap-2'>
-                    <button><img src={github_icon} alt="" /></button>
-                    <button><img src={figma_icon} alt="" /></button>
-                    <button><img src={inbox_icon} alt="" /></button>
+                <div className='flex items-center gap-3'>
+                    <SocialMedia title="Github" src={github} url="https://www.github.com/Arifineko" />
+                    <SocialMedia title="Instagram" src={instagram} url='https://www.instagram.com/arifin_e/' />
+                    <SocialMedia title="Linkedin" src={linkedin} url='https://www.linkedin.com/in/arifineko/' />
                 </div>
             </div>
             <div className=''>

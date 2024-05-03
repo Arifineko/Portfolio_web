@@ -1,7 +1,8 @@
 import Section from '../../components/Section'
 import SocialMedia from '../../components/ContactComponents/SocialMedia'
 import github from '../../assets/icons/github-icon.svg'
-import figma from '../../assets/icons/figma-icon.svg'
+import linkedin from "../../assets/icons/linkedin-icon.svg"
+import instagram from "../../assets/icons/ig-icon.svg"
 import mail from "../../assets/icons/mail-icon.svg"
 import phone from "../../assets/icons/phone-icon.svg"
 import ContactPeson from '../../components/ContactComponents/ContactPeson'
@@ -27,11 +28,12 @@ const Contact = () => {
                 />
 
             </div>
-            <div className='flex flex-col gap-2 items-center'>
+            <div className='flex flex-col gap-4 items-center'>
                 <p>You may also find me on these platforms!</p>
-                <div className='flex gap-1'>
-                    <SocialMedia url={github} />
-                    <SocialMedia url={figma} />
+                <div className='flex gap-3'>
+                    <SocialMedia title="Github" src={github} url="https://www.github.com/Arifineko" />
+                    <SocialMedia title="Instagram" src={instagram} url='https://www.instagram.com/arifin_e/' />
+                    <SocialMedia title="Linkedin" src={linkedin} url='https://www.linkedin.com/in/arifineko/' />
                 </div>
             </div>
         </div>
