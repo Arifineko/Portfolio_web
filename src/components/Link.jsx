@@ -17,7 +17,7 @@ const Link = () => {
                         spy={true}
                         smooth={true}
                         offset={80} // Adjust this offset based on your header height
-                        duration={1000}
+                        duration={1100}
                         className='text-gray-500 font-normal hover:text-gray-800 transition-colors duration-300 cursor-pointer'
                         activeClass='text-gray-800 font-bold'
                     >

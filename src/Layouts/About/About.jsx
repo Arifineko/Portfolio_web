@@ -1,22 +1,20 @@
 import React from 'react'
 import profile from "../../assets/images/profile.png"
-import Button from '../../components/Button'
+import Section from '../../components/Section'
 
 const About = () => {
     return (
         <div className='bg-gray-50 ' id='About'>
             <div className='flex flex-col text-gray-600 gap-[48px] py-[96px] px-20 justify-center items-center lg:justify-items-center lg:justify-center'>
-                <div className='flex justify-center'>
-                    <Button
-                        bg="bg-gray-200"
-                        content="About me"
-                    />
-                </div>
+                <Section
+                    name="About me"
+                    detail="These some details about me"
+                />
                 <div className='flex gap-10'>
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="1000">
                         <img className='w-[450px]' src={profile} alt="" />
                     </div>
-                    <div className='w-[580px]'>
+                    <div className='w-[580px]' data-aos="fade-left" data-aos-duration="1000">
                         <h1 className='text-[30px] text-gray-900 font-semibold mb-8'>Intrigued about my story? Here's your chance to dive in:</h1>
                         <div className='flex flex-col gap-8'>
                             <p>Hello! I am Arifin, an English education student who has an interest in web development, specifically as a front-end developer. Currently, I have a basic understanding in HTML, CSS, and JavaScript, and I am excited to continue learning and growing in this field.

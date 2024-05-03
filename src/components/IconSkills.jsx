@@ -5,7 +5,9 @@ import { dataSkills } from '../data/skills';
 
 const IconSkills = () => {
     return (
-        <div className='flex gap-20'>
+        <div className='flex gap-20'
+            data-aos="fade-up"
+            data-aos-duration="1000">
             {dataSkills.map((data, index) => (
                 <div key={index}>
                     <img className='mb-2' src={data.img} />

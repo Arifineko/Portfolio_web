@@ -10,7 +10,9 @@ import SocialMedia from '../../components/ContactComponents/SocialMedia'
 const Hero = () => {
     return (
         <div className='py-[96px] flex justify-center items-center gap-[48px] text-gray-600'>
-            <div className='w-[768px] flex flex-col gap-[48px]'>
+            <div className='w-[768px] flex flex-col gap-[48px]'
+                data-aos="fade-right" data-aos-duration="2000"
+            >
                 <div>
                     <h1 className='font-bold text-[60px]'>Hi, I'm Arifin👋</h1>
                     <p>I'm an English education student who has an interest in web development, specifically as a front-end developer. Currently, I have a basic understanding in HTML, CSS, and JavaScript, and I am excited to continue learning and growing in this field.</p>
@@ -28,7 +30,7 @@ const Hero = () => {
                     <SocialMedia title="Linkedin" src={linkedin} url='https://www.linkedin.com/in/arifineko/' />
                 </div>
             </div>
-            <div className=''>
+            <div className='' data-aos="fade-left" data-aos-duration="2000">
                 <img className='w-[300px]' src={profile} alt="" />
             </div>
         </div>
