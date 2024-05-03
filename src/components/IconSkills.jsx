@@ -1,29 +1,4 @@
-// import React from 'react'
-// // import { dataSkills } from '../data/skills.js'
 
-// const dataSkills = [{
-//     img: "../../src/assets/icons/js.svg",
-//     name: "JavaScript"
-// }]
-
-
-// const IconSkills = () => {
-
-//     return (
-//         <div>
-//             {dataSkills.map((data, key) => {
-//                 <div key={key}>
-//                     {/* <img src={require('../../src/assets/icons/js.svg')} alt="" /> */}
-//                     <p className='bg-red-500'>{data.name}</p>
-//                     <p>hi</p>
-//                 </div>
-//             })}
-
-//         </div>
-//     )
-// }
-
-// export default IconSkills
 
 import React from 'react';
 import { dataSkills } from '../data/skills';

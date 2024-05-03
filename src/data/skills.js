@@ -1,26 +1,33 @@
+import js from "../assets/icons/js-icon.svg"
+import react from "../assets/icons/react-icon.svg"
+import tailwind from "../assets/icons/tailwind-icon.svg"
+import git from "../assets/icons/git-icon.svg"
+import node from "../assets/icons/node-icon.svg"
+import figma from "../assets/icons/figma-icon2.svg"
+
 
 export const dataSkills = [{
-    img: "../../src/assets/icons/js-icon.svg",
+    img: `${js}`,
     name: "JavaScript"
 },
 {
-    img: "../../src/assets/icons/react-icon.svg",
+    img: `${react}`,
     name: "React"
 },
 {
-    img: "../../src/assets/icons/tailwind-icon.svg",
+    img: `${tailwind}`,
     name: "Tailwindcss"
 },
 {
-    img: "../../src/assets/icons/git-icon.svg",
+    img: `${git}`,
     name: "Git"
 },
 {
-    img: "../../src/assets/icons/node-icon.svg",
+    img: `${node}`,
     name: "Node.js"
 },
 {
-    img: "../../src/assets/icons/figma-icon2.svg",
+    img: `${figma}`,
     name: "Figma"
 },
 ]
