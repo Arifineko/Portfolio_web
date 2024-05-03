@@ -5,7 +5,7 @@ import linkedin from "../../assets/icons/linkedin-icon.svg"
 import instagram from "../../assets/icons/ig-icon.svg"
 import mail from "../../assets/icons/mail-icon.svg"
 import phone from "../../assets/icons/phone-icon.svg"
-import ContactPeson from '../../components/ContactComponents/ContactPeson'
+import ContactPerson from '../../components/ContactComponents/ContactPerson'
 
 const Contact = () => {
     return (
@@ -16,12 +16,12 @@ const Contact = () => {
                 width="w-[576px] text-center"
             />
             <div className='flex flex-col items-center gap-2'>
-                <ContactPeson
+                <ContactPerson
                     image={mail}
                     contact="Arifineko@gmail.com"
                     link="tes"
                 />
-                <ContactPeson
+                <ContactPerson
                     image={phone}
                     contact="+62 8980500565"
                     link="tes"
