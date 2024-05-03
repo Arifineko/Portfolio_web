@@ -4,6 +4,7 @@ import Hero from './Layouts/Hero/Hero'
 import Navbar from './Layouts/Navbar/Navbar'
 import Project from './Layouts/Project/Project'
 import Skills from './Layouts/Skills/Skills'
+import "../src/global.css"
 import { BrowserRouter } from 'react-router-dom'
 
 

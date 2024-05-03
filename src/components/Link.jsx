@@ -1,29 +1,31 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { Link as ScrollLink } from 'react-scroll';
 
 const navigation = [
-    { name: 'About', href: '/About' },
-    { name: 'Project', href: '/Project' },
-    { name: 'Contact', href: '/Contact' },
+    { name: 'About', href: 'About' },
+    { name: 'Project', href: 'Project' },
+    { name: 'Contact', href: 'Contact' },
 ]
 
 const Link = () => {
     return (
-        <li className='flex gap-5'>
+        <ul className='flex gap-5'>
             {navigation.map(item => (
-                <NavLink
-                    key={item.name}
-                    to={item.href}
-                    className={({ isActive }) => {
-                        return (
-                            (isActive ? 'text-gray-800 font-bold' : 'text-gray-500 font-normal')
-                        )
-                    }}
-                >
-                    {item.name}
-                </NavLink>
+                <li key={item.name}>
+                    <ScrollLink
+                        to={item.href}
+                        spy={true}
+                        smooth={true}
+                        offset={80} // Adjust this offset based on your header height
+                        duration={1000}
+                        className='text-gray-500 font-normal hover:text-gray-800 transition-colors duration-300 cursor-pointer'
+                        activeClass='text-gray-800 font-bold'
+                    >
+                        {item.name}
+                    </ScrollLink>
+                </li>
             ))}
-        </li>
+        </ul>
     )
 }
 

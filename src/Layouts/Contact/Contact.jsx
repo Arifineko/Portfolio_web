@@ -8,7 +8,7 @@ import ContactPeson from '../../components/ContactComponents/ContactPeson'
 
 const Contact = () => {
     return (
-        <div className='py-[96px] px-20 flex flex-col gap-[48px] justify-center items-center'>
+        <div className='py-[96px] px-20 flex flex-col gap-[48px] justify-center items-center' id='Contact'>
             <Section
                 name="Get in touch"
                 detail="What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect."

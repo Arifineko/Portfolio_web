@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='w-[768px] flex flex-col gap-[48px]'>
                 <div>
                     <h1 className='font-bold text-[60px]'>Hi, I'm Arifin👋</h1>
-                    <p>I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.</p>
+                    <p>I'm an English education student who has an interest in web development, specifically as a front-end developer. Currently, I have a basic understanding in HTML, CSS, and JavaScript, and I am excited to continue learning and growing in this field.</p>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <div className='flex gap-2'>
