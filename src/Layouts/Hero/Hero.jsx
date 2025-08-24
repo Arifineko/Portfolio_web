@@ -15,7 +15,7 @@ const Hero = () => {
             >
                 <div>
                     <h1 className='font-bold text-[60px]'>Hi, I'm Arifin👋</h1>
-                    <p>I'm an English education student who has an interest in web development, specifically as a front-end developer. Currently, I have a basic understanding in HTML, CSS, and JavaScript, and I am excited to continue learning and growing in this field.</p>
+                    <p>I'm passionate about web development, focusing on front-end technologies. With a solid foundation in HTML, CSS, and JavaScript, I’ve expanded my skills to building responsive and modern interfaces using React JS and Tailwind CSS.</p>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <div className='flex gap-2'>

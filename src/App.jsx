@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import About from './Layouts/About/About';
 import Contact from './Layouts/Contact/Contact';
@@ -17,7 +16,7 @@ function App() {
           <Navbar />
           <Hero />
         </div>
-        <About />
+        {/* <About /> */}
         <Skills />
         <Project />
         <Contact />

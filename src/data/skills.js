@@ -7,27 +7,27 @@ import figma from "../assets/icons/figma-icon2.svg"
 
 
 export const dataSkills = [{
-    img: `${js}`,
+    img: js,
     name: "JavaScript"
 },
 {
-    img: `${react}`,
+    img: react,
     name: "React"
 },
 {
-    img: `${tailwind}`,
+    img: tailwind,
     name: "Tailwindcss"
 },
 {
-    img: `${git}`,
+    img: git,
     name: "Git"
 },
 {
-    img: `${node}`,
+    img: node,
     name: "Node.js"
 },
 {
-    img: `${figma}`,
+    img: figma,
     name: "Figma"
 },
 ]

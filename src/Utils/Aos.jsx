@@ -4,7 +4,9 @@ import 'aos/dist/aos.css';
 
 const Aos = ({ children }) => {
     useEffect(() => {
-        AOS.init();
+        AOS.init({
+            once: true
+        });
     }, []);
 
     return children;
