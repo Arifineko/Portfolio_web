@@ -18,7 +18,7 @@ const Link = () => {
                         offset={80} // Adjust this offset based on your header height
                         duration={1100}
                         className='text-white font-normal rounded-3xl p-2 py-2 hover:text-gray-500 transition-colors duration-300 cursor-pointer'
-                        activeClass='text-black font-bold bg-white p-2 py-2 rounded-full'
+                        activeClass='!text-black font-bold bg-white p-2 py-2 rounded-full'
                     >
                         {item.name}
                     </ScrollLink>
