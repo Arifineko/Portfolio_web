@@ -12,10 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <Aos>
-        <div className='px-20'>
-          <Navbar />
-          <Hero />
-        </div>
+        <Navbar />
+        <Hero />
         {/* <About /> */}
         <Skills />
         <Project />

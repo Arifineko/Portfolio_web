@@ -1,39 +1,29 @@
-import React from 'react'
-import github from "../../assets/icons/github-icon.svg"
 import location_icon from "../../assets/icons/location-icon.svg"
-import linkedin from "../../assets/icons/linkedin-icon.svg"
-import instagram from "../../assets/icons/ig-icon.svg"
-import profile from "../../assets/images/profile.png"
-import SocialMedia from '../../components/ContactComponents/SocialMedia'
+
 
 
 const Hero = () => {
     return (
-        <div className='py-[96px] flex justify-center items-center gap-[48px] text-gray-600'>
-            <div className='w-[768px] flex flex-col gap-[48px]'
-                data-aos="fade-right" data-aos-duration="2000"
-            >
-                <div>
-                    <h1 className='font-bold text-[60px]'>Hi, I'm Arifin👋</h1>
-                    <p>I'm passionate about web development, focusing on front-end technologies. With a solid foundation in HTML, CSS, and JavaScript, I’ve expanded my skills to building responsive and modern interfaces using React JS and Tailwind CSS.</p>
-                </div>
-                <div className='flex flex-col gap-2'>
-                    <div className='flex gap-2'>
-                        <img src={location_icon} alt="" />
-                        <p>Purwokerto, Indonesia</p>
+        <>
+            <div className='py-[96px] bg-gray-50 mt-10'>
+                <div className='flex gap-[48px] items-center justify-center mb-20'
+                    data-aos="fade-right" data-aos-duration="2000"
+                >
+                    <div>
+                        <h1 className='font-bold text-[40px]'>Frontend Developer</h1>
+                        <h1 className='text-[30px] font-extralight'>- Crafting since 2021</h1>
+                        <div className='flex gap-2 mt-4'>
+                            <img src={location_icon} alt="" />
+                            <p>Currently based in Purwokerto, Indonesia</p>
+                        </div>
                     </div>
-
-                </div>
-                <div className='flex items-center gap-3'>
-                    <SocialMedia title="Github" src={github} url="https://www.github.com/Arifineko" />
-                    <SocialMedia title="Instagram" src={instagram} url='https://www.instagram.com/arifin_e/' />
-                    <SocialMedia title="Linkedin" src={linkedin} url='https://www.linkedin.com/in/arifineko/' />
+                    <div>
+                        <p className='max-w-[400px] mb-4'>With a solid foundation in HTML, CSS, and JavaScript, I’ve expanded my skills to building responsive and modern interfaces using React JS and Tailwind CSS.</p>
+                        <button className='py-3 px-5 bg-gray-800 rounded-3xl text-white'>Hire me</button>
+                    </div>
                 </div>
             </div>
-            <div className='' data-aos="fade-left" data-aos-duration="2000">
-                <img className='w-[300px]' src={profile} alt="" />
-            </div>
-        </div>
+        </>
     )
 }
 

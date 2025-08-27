@@ -1,19 +1,16 @@
-import React from 'react'
 import Link from '../../components/Link'
-import logo from '../../assets/icons/logo.svg'
+// import logo from '../../assets/icons/logo.svg'
 
 const Navbar = () => {
+
     return (
-        <nav className='flex justify-between py-4 text-gray-500'
+        <nav className='fixed z-20 py-4 text-gray-500 left-0 top-0 right-0'
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="400"
             data-aos-offset="0"
         >
-            <div>
-                <img src={logo} alt="Logo" className='w-[40px]' />
-            </div>
-            <div className='flex gap-5 items-center'>
+            <div className='flex gap-5 items-center justify-center'>
                 <Link />
             </div>
         </nav>
